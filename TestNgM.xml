@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="12" name="Mobile" data-provider-thread-count="1">
+  <test thread-count="1" name="YES_Mobile_Android" parallel="methods">
+    <classes>
+      <class name="e2e.tests.BddTests">
+        <methods>
+          <include name="Demo"/>
+        </methods>
+      </class> <!-- e2e.tests.BddTests -->
+    </classes>
+  </test> <!-- YES_Mobile_Android -->
+</suite> <!-- Mobile -->

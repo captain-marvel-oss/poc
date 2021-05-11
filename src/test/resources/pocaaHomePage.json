@@ -1,0 +1,244 @@
+{
+  "searchIcon": {
+    "description": "search button",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='icon icon-01-search-normal search-normal l']"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".ux-header-singtel-mobile input#search"
+    }
+  },
+  "hamburgerMenu": {
+    "description": "Hamburger menu",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='icon icon-hamburger-line left v-normal-top s']"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "span.icon-hamburger-line"
+    }
+  },
+  "searchField": {
+    "description": "Search text field",
+    "web": {
+      "by": "id",
+      "value": "search"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".ux-header-singtel-mobile input#search"
+    }
+  },
+  "searchResult": {
+    "description": "Search suggestions",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='uniboxSearchContent']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='uniboxSearchContent']"
+    }
+  },
+  "searchResultPageHeader": {
+    "description": "Search results header",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='hero-text v-medium-top'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='hero-text v-medium-top v-medium-bottom'])[1]"
+    }
+  },
+  "shopButton": {
+    "description": "Shop button",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='icon icon-05-shop-normal  l']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='icon icon-shop-MR  m']"
+    }
+  },
+  "brandFilter": {
+    "description": "Brand filter drop down",
+    "web": {
+      "by": "id",
+      "value": "select-brand"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "select-brand"
+    }
+  },
+  "dealFilter": {
+    "description": "Deal filter drop down",
+    "web": {
+      "by": "id",
+      "value": "select-deal"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "select-deal"
+    }
+  },
+  "productNameSearch": {
+    "description": "Product Name search",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='text-center product-title v-normal-top'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='product-title v-normal-top v-large-bottom'])[1]"
+    }
+  },
+  "productPriceSearch": {
+    "description": "Product price search",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='main-dollar'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='main-dollar'])[2]"
+    }
+  },
+  "selectButtonSearch": {
+    "description": "Select Button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button select-phones-buttons light round'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button select-phones-buttons light round'])[2]"
+    }
+  },
+  "productHeader": {
+    "description": "Product title header",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='main-header']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='main-header']"
+    }
+  },
+  "productColor": {
+    "description": "Product color",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-color-variant  v-normal-bottom v-normal-right '])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-color-variant  v-normal-bottom v-normal-right '])[1]"
+    }
+  },
+  "productStorage": {
+    "description": "Product storage",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-capacity-variant   v-normal-bottom v-normal-right  '])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-capacity-variant   v-normal-bottom v-normal-right  '])[1]"
+    }
+  },
+  "nextButton": {
+    "description": "Next button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button button round '])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button button round '])[1]"
+    }
+  },
+  "postPaidPlan": {
+    "description": "Postpaid plan",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='light main-header']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='light main-header']"
+    }
+  },
+  "preRegisterButton": {
+    "description": "Pre-register button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-anchor round margin-zero small-only-expand button solid'])[2]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-anchor round margin-zero small-only-expand button solid'])[2]"
+    }
+  },
+  "preRegisterationHeader": {
+    "description": "Pre Register Header Text",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='Heading__StyledHeading-sc-1hgag1-0 cqdMFx Heading__H3-sc-1jycpcn-2 exPHYx']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='Heading__StyledHeading-sc-1hgag1-0 cqdMFx Heading__H3-sc-1jycpcn-2 exPHYx']"
+    }
+  },
+  "personalText": {
+    "description": "Personal radio button Text",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='styles__Label-dcder4-4 esGsDM'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='styles__Label-dcder4-4 esGsDM'])[1]"
+    }
+  },
+  "personalRadioButton": {
+    "description": "Personal radio button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@name='plan'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@name='plan'])[1]"
+    }
+  },
+  "nextButtonRegisterPage": {
+    "description": "Next button pre register page",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='Button__SCButton-sfx78y-0 kipdsT'])"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='Button__SCButton-sfx78y-0 kipdsT'])"
+    }
+  },
+  "nricTextBox": {
+    "description": "NRIC text box",
+    "web": {
+      "by": "id",
+      "value": "NRIC"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "NRIC"
+    }
+  }
+}

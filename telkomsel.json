@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "1a09d771-0491-4cfc-bb60-75f4b280647c",
+		"name": "Telkomsel Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "JWT Key",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "dac5f018-1424-40f0-a340-258ba5853c98",
+						"exec": [
+							"var restxt = pm.response.text();",
+							"pm.environment.set(\"token\", restxt);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhY2NvdW50SWQiLCJxc2giOiIxN2RjZTIwYzVhZGM0MWJhMjIyZmY3YWU4ZTE4YThiYzJlMWVkNTUyOGRhNjM3ZTMyY2UwZGJjNDkyMjRjY2I0IiwiaXNzIjoiYW1seVlUbzVPVFk0WkdKaU15MHlZelkzTFRReU56UXRPR0V5WkMwd1lqUXdNR1ZpT0dRMFlqWWdZV1J0YVc0Z1lXeGxlQzFyWlhrIiwiZXhwIjoxNTk3NjAzMTI0LCJpYXQiOjE1OTc1OTk1MjR9.J8LCAOOLuO0eKFaEH1sjAPCxacHZCq7HsJuio6PJfLs",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "zapiAccessKey",
+						"value": "NmU4MWE5MTMtN2ZhZC0zYmVjLWFjYTEtNTYwNTBkYzVkMmRmIDVmM2NmNjVkOWEwMTMxMDA0MWI4YTA3ZCBVU0VSX0RFRkFVTFRfTkFNRQ",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"accessKey\":\"{{accessKey}}\",\n\t\"secretKey\":\"{{secretKey}}\",\n\t\"accountId\":\"{{accountId}}\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://prod-vortexapi.zephyr4jiracloud.com/api/v1/jwt/generate",
+					"protocol": "https",
+					"host": [
+						"prod-vortexapi",
+						"zephyr4jiracloud",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"jwt",
+						"generate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Job",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fc878994-bb8d-4018-9449-e4e732a5daa3",
+						"exec": [
+							"var jsonData = pm.response.text();",
+							"console.log(\"Response: \"+jsonData.toString());",
+							"console.log(\"JSON DATA: \" + jsonData.toString().substring(59,123));",
+							"pm.environment.set(\"jobid\", jsonData.toString().substring(59,123));"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accessKey",
+						"type": "text",
+						"value": "{{accessKey}}"
+					},
+					{
+						"key": "jwt",
+						"type": "text",
+						"value": "{{token}}"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "jobName",
+							"value": "AutomationJob",
+							"type": "text"
+						},
+						{
+							"key": "automationFramework",
+							"value": "CUCUMBER",
+							"type": "text"
+						},
+						{
+							"key": "cycleName",
+							"value": "{{buildNo}}",
+							"type": "text"
+						},
+						{
+							"key": "folderName",
+							"value": "{{folderName}}",
+							"type": "text"
+						},
+						{
+							"key": "versionName",
+							"value": "{{versionName}}",
+							"type": "text"
+						},
+						{
+							"key": "projectKey",
+							"value": "{{projectKey}}",
+							"type": "text"
+						},
+						{
+							"key": "cycleStartingDate",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "cycleEndingDate",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "createNewCycle",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "createNewFolder",
+							"value": "true",
+							"type": "text"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "{{file}}"
+						},
+						{
+							"key": "assigneeUser",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "jobDescription",
+							"value": "Functional Automation Scrits",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://prod-vortexapi.zephyr4jiracloud.com/api/v1/automation/job/create",
+					"protocol": "https",
+					"host": [
+						"prod-vortexapi",
+						"zephyr4jiracloud",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"automation",
+						"job",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Execute Job",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accessKey",
+						"value": "{{accessKey}}",
+						"type": "text"
+					},
+					{
+						"key": "jwt",
+						"value": "{{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "jobId",
+							"value": "{{jobid}}",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://prod-vortexapi.zephyr4jiracloud.com/api/v1/automation/job/execute",
+					"protocol": "https",
+					"host": [
+						"prod-vortexapi",
+						"zephyr4jiracloud",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"automation",
+						"job",
+						"execute"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

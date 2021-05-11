@@ -1,0 +1,216 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-08T18:18:13.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12072900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PocStepDefinition.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "As a Consumer, I am able to navigate to TRA in Numbers section",
+        "description": "",
+        "id": "tra-public-website---poc;as-a-consumer--i-am-able-to-navigate-to-tra-in-numbers-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43497197000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "TRA public website is loaded successfully",
+            "match": {
+              "location": "PocStepDefinition.TRAPublicWebsiteIsLoadedSuccessfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 544253100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I as a public user navigates to the TRA in Numbers Section",
+            "match": {
+              "location": "PocStepDefinition.iAsAPublicUserNavigatesToTheTRAInNumbersSection()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2580479100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I select Market Information Option",
+            "match": {
+              "location": "PocStepDefinition.iSelectMarketInformationOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427903200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am able to see the Market Information sub options",
+            "match": {
+              "location": "PocStepDefinition.iAmAbleToSeeTheMarketInformationSubOptions()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@POC"
+          },
+          {
+            "name": "@TRA"
+          },
+          {
+            "name": "@tra"
+          },
+          {
+            "name": "@webapp"
+          },
+          {
+            "name": "@mobileapp"
+          },
+          {
+            "name": "@TRA-128"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-08T18:19:03.745Z",
+        "before": [
+          {
+            "result": {
+              "duration": 761600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "PocStepDefinition.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "As a Consumer, I am able to validate search Options",
+        "description": "",
+        "id": "tra-public-website---poc;as-a-consumer--i-am-able-to-validate-search-options",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 36974328000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "TRA public website is loaded successfully",
+            "match": {
+              "location": "PocStepDefinition.TRAPublicWebsiteIsLoadedSuccessfully()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1999774800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I as a public user click on the search icon",
+            "match": {
+              "location": "PocStepDefinition.iAsAPublicUserClickOnTheSearchIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 630086600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am able to view the search options",
+            "match": {
+              "location": "PocStepDefinition.iAmAbleToViewTheSearchOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7717683900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am able to enter the key in the search text",
+            "match": {
+              "location": "PocStepDefinition.iAmAbleToEnterTheKeyInTheSearchText()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@POC"
+          },
+          {
+            "name": "@TRA"
+          },
+          {
+            "name": "@tra"
+          },
+          {
+            "name": "@webapp"
+          },
+          {
+            "name": "@mobileapp"
+          },
+          {
+            "name": "@TRA-129"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "TRA Public Website - POC",
+    "description": "",
+    "id": "tra-public-website---poc",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": [
+      {
+        "name": "@POC",
+        "location": {
+          "line": 1,
+          "column": 1
+        },
+        "type": "Tag"
+      },
+      {
+        "name": "@TRA",
+        "location": {
+          "line": 1,
+          "column": 7
+        },
+        "type": "Tag"
+      }
+    ]
+  }
+]

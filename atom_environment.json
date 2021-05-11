@@ -1,0 +1,63 @@
+{
+  "values": [
+    {
+      "value": "",
+      "key": "token",
+      "enabled": true
+    },
+    {
+      "value": "",
+      "key": "jobId",
+      "enabled": true
+    },
+    {
+      "value": "NmU4MWE5MTMtN2ZhZC0zYmVjLWFjYTEtNTYwNTBkYzVkMmRmIDU1NzA1OCUzQWI5ZDE0Nzk1LTdhYzYtNDJmMy04OWM4LTkxZGY2MjQxZTdhOSBVU0VSX0RFRkFVTFRfTkFNRQ",
+      "key": "accessKey",
+      "enabled": true
+    },
+    {
+      "value": "rTbPoqt7QManrGNubuTuXxZn6hSR9560VNnH1TcFrQ8",
+      "key": "secretKey",
+      "enabled": true
+    },
+    {
+      "value": "557058:b9d14795-7ac6-42f3-89c8-91df6241e7a9",
+      "key": "accountId",
+      "enabled": true
+    },
+    {
+      "value": "/Users/sundar.siva/Documents/telkomsel/TelkomSelTest/target/cucumber-reports/CucumberTestReport.json",
+      "key": "file",
+      "enabled": true
+    },
+    {
+      "value": "TEL",
+      "key": "projectKey",
+      "enabled": true
+    },
+    {
+      "value": "1",
+      "key": "buildNo",
+      "enabled": true
+    },
+    {
+      "value": "POC_V0.1",
+      "key": "versionName",
+      "enabled": true
+    },
+    {
+      "value": "",
+      "key": "cycleName",
+      "enabled": true
+    },
+    {
+      "key": "folderName",
+      "enabled": true
+    }
+  ],
+  "name": "Test",
+  "_postman_exported_using": "Postman/7.30.1",
+  "_postman_exported_at": "2020-08-22T11:01:54.721Z",
+  "id": "1a454c8a-52ee-40d9-9fbf-dfe8141005be",
+  "_postman_variable_scope": "environment"
+}

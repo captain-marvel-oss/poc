@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="12" name="Default Suite" parallel="tests">
+    <test thread-count="2" name="K2POKNSNJG" parallel="methods">
+        <classes>
+            <class name="e2e.tests.Registration">
+                <methods>
+                    <include name="TestRegistration"/>
+                    <include name="TestRegistration2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

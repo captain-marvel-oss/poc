@@ -1,0 +1,326 @@
+{
+  "load": {
+    "description": "Login Page",
+    "web":
+    {
+      "by": "id",
+      "value": "d1"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "d1"
+    }
+  },
+  "load_reset": {
+    "description": "Login Page",
+    "web":
+    {
+      "by": "id",
+      "value": "resetDocId"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "resetDocId"
+    }
+  },
+  "loginid": {
+    "description": "EMAIL / USERNAME",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli1:loginid::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli1:loginid::content"
+    }
+  },
+  "password": {
+    "description": "PASSWORD FIELD",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pwli:pwd::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pwli:pwd::content"
+    }
+  },
+  "forgotpassword": {
+    "description": "Forgot password link",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pwli:cl2"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pwli:cl2"
+    }
+  },
+  "password_reset": {
+    "description": "Reset Password",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:plam1:pwd::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:plam1:pwd::content"
+    }
+  },
+  "password_reset_reenter": {
+    "description": "Reset Password Reenter",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:plam2:confPwd::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:plam2:confPwd::content"
+    }
+  },
+  "login_button": {
+    "description": "Login Button",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:cb1"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:cb1"
+    }
+  },
+  "next_button": {
+    "description": "Next Button",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:cb1"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:cb1"
+    }
+  },
+  "reset_button": {
+    "description": "Reset and Login Button",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:cb1"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:cb1"
+    }
+  },
+  "for_username_label": {
+    "description": "Forgot Username Label",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:sbr4::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:sbr4::content"
+    }
+  },
+  "for_email_label": {
+    "description": "Forgot EMAIL Label",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:sbr5::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:sbr5::content"
+    }
+  },
+  "for_username_link": {
+    "description": "Forgot username link",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli1:gl1"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli1:gl1"
+    }
+  },
+  "email_field": {
+    "description": "Email address field",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli2:emaddr::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli2:emaddr::content"
+    }
+  },
+  "username_field": {
+    "description": "Username field",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli1:username::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli1:username::content"
+    }
+  },
+  "cancel_button": {
+    "description": "Cancel Button",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:cancel"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:cancel"
+    }
+  },
+  "page_title": {
+    "description": "Page Title",
+    "web":
+    {
+      "by": "css",
+      "value": ".pageTitleText"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".pageTitleText"
+    }
+  },
+  "page_subtitle": {
+    "description": "Page Title Heading 2",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:had1:dc_pgl4"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:had1:dc_pgl4"
+    }
+  },
+  "otp": {
+    "description": "OTP Verification code from email",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli1:verificationCode::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli1:verificationCode::content"
+    }
+  },
+  "account_locked": {
+    "description": "Login: Account Locked",
+    "web":
+    {
+      "by": "css",
+      "value": "#pt1\\:pgl3 > div"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#pt1\\:pgl3 > div"
+    }
+  },
+  "account_locked_contact": {
+    "description": "Login: Account Locked Contact",
+    "web":
+    {
+      "by": "css",
+      "value": "#pt1\\:pgl3 div:nth-child(3)"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#pt1\\:pgl3 div:nth-child(3)"
+    }
+  },
+  "account_info": {
+    "description": "Login: Account Info Title",
+    "web":
+    {
+      "by": "css",
+      "value": "div[title='Account Information'] h1"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "div[title='Account Information'] h1"
+    }
+  },
+  "return_login": {
+    "description": "Login: Return to login button",
+    "web":
+    {
+      "by": "css",
+      "value": "#pt1\\:cl1 span"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#pt1\\:cl1 span"
+    }
+  },
+  "login_remember_me": {
+    "description": "Login: Remember Me",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli1:sbc1::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli1:sbc1::content"
+    }
+  },
+  "login_street_add_num": {
+    "description": "Street Address Number",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli2:it1::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli2:it1::content"
+    }
+  },
+  "login_apt_unit_suite": {
+    "description": "Street Address Number",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pli1:unitNumber::content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pli1:unitNumber::content"
+    }
+  },
+  "login_email_link": {
+    "description": "Login link - Email - Service Email",
+    "web":
+    {
+      "by": "css",
+      "value": "tr:nth-child(8) > td a > img"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "tr:nth-child(8) > td a > img"
+    }
+  }
+}

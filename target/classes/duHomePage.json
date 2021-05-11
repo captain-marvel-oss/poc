@@ -1,0 +1,387 @@
+{
+  "devicesNavLink": {
+    "description": "Navigation Bar: Devices Link",
+    "web": {
+      "by": "css",
+      "value": ".quickLinks-item"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".quickLinks-item"
+    }
+  },
+  "hamburgerMenu": {
+    "description": "Hamburger menu",
+    "web": {
+      "by": "css",
+      "value": ".du-burger-menu"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".du-burger-menu"
+    }
+  },
+  "device_tabMobile": {
+    "description": "Devices Tab: Mobiles",
+    "web": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'MOBILES')]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'MOBILES')]"
+    }
+  },
+  "device_tabTablet": {
+    "description": "Devices Tab: Tablets",
+    "web": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'TABLETS')]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'TABLETS')]"
+    }
+  },
+  "device_tabAccessories": {
+    "description": "Devices Tab: Accessories",
+    "web": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'ACCESSORIES')]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'ACCESSORIES')]"
+    }
+  },
+  "device_tabBroadband": {
+    "description": "Devices Tab: Broadband",
+    "web": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'BROADBAND')]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//div[contains(text(),'BROADBAND')]"
+    }
+  },
+  "cardTitle": {
+    "description": "Device First Card Title",
+    "web": {
+      "by": "css",
+      "value": "h4.card-title"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".d-lg-none .devices h4.card-title.fs-25"
+    }
+  },
+  "lifeStyleNavLink": {
+    "description": "Life Style Link",
+    "web": {
+      "by": "xpath",
+      "value": "//a[contains(text(),'Lifestyle')]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//a[contains(text(),'Lifestyle')]"
+    }
+  },
+  "rebrand": {
+    "description": "Lifestlye section",
+    "web": {
+      "by": "css",
+      "value": "div.rebrand"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "div.rebrand"
+    }
+  },
+  "brandFilter": {
+    "description": "Brand filter drop down",
+    "web": {
+      "by": "id",
+      "value": "select-brand"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "select-brand"
+    }
+  },
+  "dealFilter": {
+    "description": "Deal filter drop down",
+    "web": {
+      "by": "id",
+      "value": "select-deal"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "select-deal"
+    }
+  },
+  "productNameSearch": {
+    "description": "Product Name search",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='text-center product-title v-normal-top'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='product-title v-normal-top v-large-bottom'])[1]"
+    }
+  },
+  "productPriceSearch": {
+    "description": "Product price search",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='main-dollar'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='main-dollar'])[2]"
+    }
+  },
+  "selectButtonSearch": {
+    "description": "Select Button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button select-phones-buttons light round'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button select-phones-buttons light round'])[2]"
+    }
+  },
+  "productHeader": {
+    "description": "Product title header",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='main-header']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='main-header']"
+    }
+  },
+  "productColor": {
+    "description": "Product color",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-color-variant  v-normal-bottom v-normal-right '])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-color-variant  v-normal-bottom v-normal-right '])[1]"
+    }
+  },
+  "productStorage": {
+    "description": "Product storage",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-capacity-variant   v-normal-bottom v-normal-right  '])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-capacity-variant   v-normal-bottom v-normal-right  '])[1]"
+    }
+  },
+  "nextButton": {
+    "description": "Next button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button button round '])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-button button button round '])[1]"
+    }
+  },
+  "postPaidPlan": {
+    "description": "Postpaid plan",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='light main-header']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='light main-header']"
+    }
+  },
+  "preRegisterButton": {
+    "description": "Pre-register button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-anchor round margin-zero small-only-expand button solid'])[2]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='ux-anchor round margin-zero small-only-expand button solid'])[2]"
+    }
+  },
+  "preRegisterationHeader": {
+    "description": "Pre Register Header Text",
+    "web": {
+      "by": "xpath",
+      "value": "//*[@class='Heading__StyledHeading-sc-1hgag1-0 cqdMFx Heading__H3-sc-1jycpcn-2 exPHYx']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//*[@class='Heading__StyledHeading-sc-1hgag1-0 cqdMFx Heading__H3-sc-1jycpcn-2 exPHYx']"
+    }
+  },
+  "personalText": {
+    "description": "Personal radio button Text",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='styles__Label-dcder4-4 esGsDM'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='styles__Label-dcder4-4 esGsDM'])[1]"
+    }
+  },
+  "personalRadioButton": {
+    "description": "Personal radio button",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@name='plan'])[1]"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@name='plan'])[1]"
+    }
+  },
+  "nextButtonRegisterPage": {
+    "description": "Next button pre register page",
+    "web": {
+      "by": "xpath",
+      "value": "(//*[@class='Button__SCButton-sfx78y-0 kipdsT'])"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "(//*[@class='Button__SCButton-sfx78y-0 kipdsT'])"
+    }
+  },
+  "nricTextBox": {
+    "description": "NRIC text box",
+    "web": {
+      "by": "id",
+      "value": "NRIC"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "NRIC"
+    }
+  },
+  "quickPayLink": {
+    "description": "Quick Pay Link",
+    "web": {
+      "by": "css",
+      "value": ".du-newnav-util .du-new-quick-links a"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".du-main-nav.opened .du-new-quick-links a"
+    }
+  },
+  "number": {
+    "description": "Quick Pay Number",
+    "web": {
+      "by": "css",
+      "value": "#MSISDN"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#MSISDN"
+    }
+  },
+  "traInNumLink": {
+    "description": "TRA In Number",
+    "web": {
+      "by": "css",
+      "value": ".sticky-link.i-graph"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".sticky-link.i-graph"
+    }
+  },
+  "marInfoOption": {
+    "description": "Market Info Option",
+    "web": {
+      "by": "css",
+      "value": ".fi-annual-market.item-icon"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".fi-annual-market.item-icon"
+    }
+  },
+  "marInfoSubOption": {
+    "description": "Market Info Option",
+    "web": {
+      "by": "xpath",
+      "value": "//a[@class='sub-fact-link']/parent::article//label[text()='du']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//a[@class='sub-fact-link']/parent::article//label[text()='du']"
+    }
+  },
+  "marInfoSubOptionAR": {
+    "description": "Market Info Option",
+    "web": {
+      "by": "xpath",
+      "value": "//a[@class='sub-fact-link']/parent::article//label[text()='دو']"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": "//a[@class='sub-fact-link']/parent::article//label[text()='دو']"
+    }
+  },
+  "preloader": {
+    "description": "Preloader",
+    "web": {
+      "by": "css",
+      "value": ".preloader"
+    },
+    "mobileweb": {
+      "by": "xpath",
+      "value": ".preloader"
+    }
+  },
+  "search": {
+    "description": "Search",
+    "web": {
+      "by": "css",
+      "value": ".action-search"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".action-search-mobile"
+    }
+  },
+  "search_key": {
+    "description": "Search Term",
+    "web": {
+      "by": "css",
+      "value": "#searchDialogKeywords"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#searchDialogKeywords"
+    }
+  },
+  "search_options": {
+    "description": "Search Options",
+    "web": {
+      "by": "css",
+      "value": ".search-more-options"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": ".search-more-options"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "hammenu": {
+    "description": "Hamburger Menu",
+    "web":
+    {
+      "by": "id",
+      "value": ""
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:mobile-nav-btn"
+    },
+    "iosapp": {
+      "by": "id",
+      "value": "pt1:mobile-nav-btn"
+    },
+    "andapp": {
+      "by": "id",
+      "value": "pt1:mobile-nav-btn"
+    }
+  },
+  "hammenustate": {
+    "description": "Hamburger Menu State",
+    "web":
+    {
+      "by": "id",
+      "value": ""
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:mobileNavWrapper"
+    }
+  },
+  "navMngAcc": {
+    "description": "Navigation: Manage Account",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:pt_dc2:i1:4:navParentLink"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:pt_dc2:i1:4:navParentLink"
+    }
+  },
+  "showerror_list": {
+    "description": "Error Content Box",
+    "web":
+    {
+      "by": "css",
+      "value": "span.showerror"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "span.showerror"
+    }
+  },
+  "errorcontent": {
+    "description": "Error Content Box",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:error-content"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:error-content"
+    }
+  },
+  "errorcontent_list": {
+    "description": "Error Content Box",
+    "web":
+    {
+      "by": "css",
+      "value": "#pt1\\:error-content li"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#pt1\\:error-content li"
+    }
+  },
+  "errorcontent_Ez": {
+    "description": "Error Content Box",
+    "web":
+    {
+      "by": "id",
+      "value": "pt1:errorList:pgl3"
+    },
+    "mobileweb": {
+      "by": "id",
+      "value": "pt1:errorList:pgl3"
+    }
+  },
+  "errorcontent_list_Ez": {
+    "description": "Error Content Box",
+    "web":
+    {
+      "by": "css",
+      "value": "#pt1\\:errorList\\:pgl3 li"
+    },
+    "mobileweb": {
+      "by": "css",
+      "value": "#pt1\\:errorList\\:pgl3 li"
+    }
+  }
+}

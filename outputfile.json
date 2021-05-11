@@ -1,0 +1,684 @@
+{
+  "collection": {
+    "_": {
+      "postman_id": "b15e4d6c-6d34-4e4d-a75b-5a2ba1f37c01"
+    },
+    "item": [
+      {
+        "id": "4ceca932-af54-4376-ab06-92b6e1dece5c",
+        "name": "Create Job",
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "api",
+              "v1",
+              "automation",
+              "job",
+              "create"
+            ],
+            "host": [
+              "prod-vortexapi",
+              "zephyr4jiracloud",
+              "com"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "accessKey",
+              "value": "YmU1NGM2ODItYjA3Zi0zODU5LTkyNWYtNzk2MGFkZGJmYjBiIDU1NzA1OCUzQTVmNDhiZDdkLTU0ZjYtNGNjMi1hNTk0LTM3YjUwOWI3MDc3NSBVU0VSX0RFRkFVTFRfTkFNRQ"
+            },
+            {
+              "key": "jwt",
+              "value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTcwNTg6NWY0OGJkN2QtNTRmNi00Y2MyLWE1OTQtMzdiNTA5YjcwNzc1IiwicXNoIjoiNzhmMDM2NzNjYWMzNDUxMjc5NDA5YTIyYjhmYWViNjFhNDQ1MzQzMDFiNDVhNDA0NGI2ODlmNmU1NjQwMzQzZCIsImlzcyI6IlltVTFOR00yT0RJdFlqQTNaaTB6T0RVNUxUa3lOV1l0TnprMk1HRmtaR0ptWWpCaUlEVTFOekExT0NVelFUVm1ORGhpWkRka0xUVTBaall0TkdOak1pMWhOVGswTFRNM1lqVXdPV0kzTURjM05TQlZVMFZTWDBSRlJrRlZURlJmVGtGTlJRIiwiZXhwIjoxNTk4MDMzNzE5LCJpYXQiOjE1OTc5OTc3MTl9.hOOgVGQQm83RC49Q8GHL8zvRKCSbKTjmQUmuf1wGmQQ"
+            }
+          ],
+          "method": "POST",
+          "body": {
+            "mode": "formdata",
+            "formdata": [
+              {
+                "key": "jobName",
+                "value": "Job1",
+                "type": "text"
+              },
+              {
+                "key": "automationFramework",
+                "value": "CUCUMBER",
+                "type": "text"
+              },
+              {
+                "key": "cycleName",
+                "value": "Cycle1",
+                "type": "text"
+              },
+              {
+                "key": "folderName",
+                "value": "Folder1",
+                "type": "text"
+              },
+              {
+                "key": "versionName",
+                "value": "Unscheduled",
+                "type": "text"
+              },
+              {
+                "key": "projectKey",
+                "value": "10003",
+                "type": "text"
+              },
+              {
+                "key": "cycleStartingDate",
+                "value": "",
+                "type": "text"
+              },
+              {
+                "key": "cycleEndingDate",
+                "value": "",
+                "type": "text"
+              },
+              {
+                "key": "createNewCycle",
+                "value": "false",
+                "type": "text"
+              },
+              {
+                "key": "createNewFolder",
+                "value": "false",
+                "type": "text"
+              },
+              {
+                "key": "file",
+                "value": "",
+                "type": "file",
+                "src": "/Users/manjunath.p/Projects/JAVA/TelkomSelTest/target/cucumber-reports/CucumberTestReport.json"
+              },
+              {
+                "key": "assigneeUser",
+                "value": "",
+                "type": "text"
+              },
+              {
+                "key": "jobDescription",
+                "value": "Descriptions",
+                "type": "text"
+              }
+            ],
+            "options": {
+              "raw": {
+                "language": "text"
+              }
+            }
+          }
+        },
+        "response": [],
+        "event": []
+      }
+    ],
+    "event": [],
+    "protocolProfileBehavior": {},
+    "variable": [],
+    "info": {
+      "_postman_id": "b15e4d6c-6d34-4e4d-a75b-5a2ba1f37c01",
+      "name": "Telkomsel",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    }
+  },
+  "environment": {
+    "id": "5b64c387-79b3-42f8-a7b1-ccc207b0e84a",
+    "values": []
+  },
+  "globals": {
+    "id": "42ad3609-3089-4f51-a8dd-ff177dd00da5",
+    "values": []
+  },
+  "run": {
+    "stats": {
+      "iterations": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "items": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "scripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequests": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "requests": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "tests": {
+        "total": 1,
+        "pending": 0,
+        "failed": 0
+      },
+      "assertions": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "testScripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      },
+      "prerequestScripts": {
+        "total": 0,
+        "pending": 0,
+        "failed": 0
+      }
+    },
+    "timings": {
+      "responseAverage": 5327,
+      "responseMin": 5327,
+      "responseMax": 5327,
+      "responseSd": 0,
+      "dnsAverage": 0,
+      "dnsMin": 0,
+      "dnsMax": 0,
+      "dnsSd": 0,
+      "firstByteAverage": 0,
+      "firstByteMin": 0,
+      "firstByteMax": 0,
+      "firstByteSd": 0,
+      "started": 1597998261549,
+      "completed": 1597998266905
+    },
+    "executions": [
+      {
+        "cursor": {
+          "position": 0,
+          "iteration": 0,
+          "length": 1,
+          "cycles": 1,
+          "empty": false,
+          "eof": false,
+          "bof": true,
+          "cr": false,
+          "ref": "368d2898-bd63-4319-b6c2-93180787716f",
+          "httpRequestId": "ff1379a6-8ae6-4114-8ccc-bfd84b155948"
+        },
+        "item": {
+          "id": "4ceca932-af54-4376-ab06-92b6e1dece5c",
+          "name": "Create Job",
+          "request": {
+            "url": {
+              "protocol": "https",
+              "path": [
+                "api",
+                "v1",
+                "automation",
+                "job",
+                "create"
+              ],
+              "host": [
+                "prod-vortexapi",
+                "zephyr4jiracloud",
+                "com"
+              ],
+              "query": [],
+              "variable": []
+            },
+            "header": [
+              {
+                "key": "accessKey",
+                "value": "YmU1NGM2ODItYjA3Zi0zODU5LTkyNWYtNzk2MGFkZGJmYjBiIDU1NzA1OCUzQTVmNDhiZDdkLTU0ZjYtNGNjMi1hNTk0LTM3YjUwOWI3MDc3NSBVU0VSX0RFRkFVTFRfTkFNRQ"
+              },
+              {
+                "key": "jwt",
+                "value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTcwNTg6NWY0OGJkN2QtNTRmNi00Y2MyLWE1OTQtMzdiNTA5YjcwNzc1IiwicXNoIjoiNzhmMDM2NzNjYWMzNDUxMjc5NDA5YTIyYjhmYWViNjFhNDQ1MzQzMDFiNDVhNDA0NGI2ODlmNmU1NjQwMzQzZCIsImlzcyI6IlltVTFOR00yT0RJdFlqQTNaaTB6T0RVNUxUa3lOV1l0TnprMk1HRmtaR0ptWWpCaUlEVTFOekExT0NVelFUVm1ORGhpWkRka0xUVTBaall0TkdOak1pMWhOVGswTFRNM1lqVXdPV0kzTURjM05TQlZVMFZTWDBSRlJrRlZURlJmVGtGTlJRIiwiZXhwIjoxNTk4MDMzNzE5LCJpYXQiOjE1OTc5OTc3MTl9.hOOgVGQQm83RC49Q8GHL8zvRKCSbKTjmQUmuf1wGmQQ"
+              }
+            ],
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": [
+                {
+                  "key": "jobName",
+                  "value": "Job1",
+                  "type": "text"
+                },
+                {
+                  "key": "automationFramework",
+                  "value": "CUCUMBER",
+                  "type": "text"
+                },
+                {
+                  "key": "cycleName",
+                  "value": "Cycle1",
+                  "type": "text"
+                },
+                {
+                  "key": "folderName",
+                  "value": "Folder1",
+                  "type": "text"
+                },
+                {
+                  "key": "versionName",
+                  "value": "Unscheduled",
+                  "type": "text"
+                },
+                {
+                  "key": "projectKey",
+                  "value": "10003",
+                  "type": "text"
+                },
+                {
+                  "key": "cycleStartingDate",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "cycleEndingDate",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "createNewCycle",
+                  "value": "false",
+                  "type": "text"
+                },
+                {
+                  "key": "createNewFolder",
+                  "value": "false",
+                  "type": "text"
+                },
+                {
+                  "key": "file",
+                  "value": "",
+                  "type": "file",
+                  "src": "/Users/manjunath.p/Projects/JAVA/TelkomSelTest/target/cucumber-reports/CucumberTestReport.json"
+                },
+                {
+                  "key": "assigneeUser",
+                  "value": "",
+                  "type": "text"
+                },
+                {
+                  "key": "jobDescription",
+                  "value": "Descriptions",
+                  "type": "text"
+                }
+              ],
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            }
+          },
+          "response": [],
+          "event": []
+        },
+        "request": {
+          "url": {
+            "protocol": "https",
+            "path": [
+              "api",
+              "v1",
+              "automation",
+              "job",
+              "create"
+            ],
+            "host": [
+              "prod-vortexapi",
+              "zephyr4jiracloud",
+              "com"
+            ],
+            "query": [],
+            "variable": []
+          },
+          "header": [
+            {
+              "key": "accessKey",
+              "value": "YmU1NGM2ODItYjA3Zi0zODU5LTkyNWYtNzk2MGFkZGJmYjBiIDU1NzA1OCUzQTVmNDhiZDdkLTU0ZjYtNGNjMi1hNTk0LTM3YjUwOWI3MDc3NSBVU0VSX0RFRkFVTFRfTkFNRQ"
+            },
+            {
+              "key": "jwt",
+              "value": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1NTcwNTg6NWY0OGJkN2QtNTRmNi00Y2MyLWE1OTQtMzdiNTA5YjcwNzc1IiwicXNoIjoiNzhmMDM2NzNjYWMzNDUxMjc5NDA5YTIyYjhmYWViNjFhNDQ1MzQzMDFiNDVhNDA0NGI2ODlmNmU1NjQwMzQzZCIsImlzcyI6IlltVTFOR00yT0RJdFlqQTNaaTB6T0RVNUxUa3lOV1l0TnprMk1HRmtaR0ptWWpCaUlEVTFOekExT0NVelFUVm1ORGhpWkRka0xUVTBaall0TkdOak1pMWhOVGswTFRNM1lqVXdPV0kzTURjM05TQlZVMFZTWDBSRlJrRlZURlJmVGtGTlJRIiwiZXhwIjoxNTk4MDMzNzE5LCJpYXQiOjE1OTc5OTc3MTl9.hOOgVGQQm83RC49Q8GHL8zvRKCSbKTjmQUmuf1wGmQQ"
+            },
+            {
+              "key": "User-Agent",
+              "value": "PostmanRuntime/7.26.2",
+              "system": true
+            },
+            {
+              "key": "Accept",
+              "value": "*/*",
+              "system": true
+            },
+            {
+              "key": "Cache-Control",
+              "value": "no-cache",
+              "system": true
+            },
+            {
+              "key": "Postman-Token",
+              "value": "da01b38a-1f99-44fe-8a9e-39d00bdec604",
+              "system": true
+            },
+            {
+              "key": "Host",
+              "value": "prod-vortexapi.zephyr4jiracloud.com",
+              "system": true
+            },
+            {
+              "key": "Accept-Encoding",
+              "value": "gzip, deflate, br",
+              "system": true
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive",
+              "system": true
+            },
+            {
+              "key": "Content-Type",
+              "value": "multipart/form-data; boundary=--------------------------346564472496197767275952",
+              "system": true
+            },
+            {
+              "key": "Content-Length",
+              "value": 25215,
+              "system": true
+            }
+          ],
+          "method": "POST",
+          "body": {
+            "mode": "formdata",
+            "formdata": [
+              {
+                "key": "jobName",
+                "value": "Job1",
+                "type": "text"
+              },
+              {
+                "key": "automationFramework",
+                "value": "CUCUMBER",
+                "type": "text"
+              },
+              {
+                "key": "cycleName",
+                "value": "Cycle1",
+                "type": "text"
+              },
+              {
+                "key": "folderName",
+                "value": "Folder1",
+                "type": "text"
+              },
+              {
+                "key": "versionName",
+                "value": "Unscheduled",
+                "type": "text"
+              },
+              {
+                "key": "projectKey",
+                "value": "10003",
+                "type": "text"
+              },
+              {
+                "key": "cycleStartingDate",
+                "value": "",
+                "type": "text"
+              },
+              {
+                "key": "cycleEndingDate",
+                "value": "",
+                "type": "text"
+              },
+              {
+                "key": "createNewCycle",
+                "value": "false",
+                "type": "text"
+              },
+              {
+                "key": "createNewFolder",
+                "value": "false",
+                "type": "text"
+              },
+              {
+                "key": "file",
+                "value": {
+                  "_readableState": {
+                    "objectMode": false,
+                    "highWaterMark": 65536,
+                    "buffer": {
+                      "head": null,
+                      "tail": null,
+                      "length": 0
+                    },
+                    "length": 0,
+                    "pipes": null,
+                    "pipesCount": 0,
+                    "flowing": true,
+                    "ended": true,
+                    "endEmitted": true,
+                    "reading": false,
+                    "sync": false,
+                    "needReadable": false,
+                    "emittedReadable": false,
+                    "readableListening": false,
+                    "resumeScheduled": false,
+                    "paused": false,
+                    "emitClose": false,
+                    "destroyed": true,
+                    "defaultEncoding": "utf8",
+                    "awaitDrain": 0,
+                    "readingMore": false,
+                    "decoder": null,
+                    "encoding": null
+                  },
+                  "readable": false,
+                  "_events": {},
+                  "_eventsCount": 3,
+                  "path": "/Users/manjunath.p/Projects/JAVA/TelkomSelTest/target/cucumber-reports/CucumberTestReport.json",
+                  "fd": null,
+                  "flags": "r",
+                  "mode": 438,
+                  "end": null,
+                  "autoClose": true,
+                  "bytesRead": 23586,
+                  "closed": true
+                },
+                "type": "file",
+                "src": "/Users/manjunath.p/Projects/JAVA/TelkomSelTest/target/cucumber-reports/CucumberTestReport.json"
+              },
+              {
+                "key": "assigneeUser",
+                "value": "",
+                "type": "text"
+              },
+              {
+                "key": "jobDescription",
+                "value": "Descriptions",
+                "type": "text"
+              }
+            ],
+            "options": {
+              "raw": {
+                "language": "text"
+              }
+            }
+          }
+        },
+        "response": {
+          "id": "2049bfb1-ea5d-4586-a974-30ebcc1b07d5",
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Date",
+              "value": "Fri, 21 Aug 2020 08:24:26 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "stream": {
+            "type": "Buffer",
+            "data": [
+              123,
+              34,
+              109,
+              101,
+              115,
+              115,
+              97,
+              103,
+              101,
+              34,
+              58,
+              34,
+              74,
+              111,
+              98,
+              32,
+              104,
+              97,
+              115,
+              32,
+              98,
+              101,
+              101,
+              110,
+              32,
+              115,
+              117,
+              99,
+              99,
+              101,
+              115,
+              115,
+              102,
+              117,
+              108,
+              108,
+              121,
+              32,
+              99,
+              114,
+              101,
+              97,
+              116,
+              101,
+              100,
+              44,
+              32,
+              74,
+              111,
+              98,
+              32,
+              105,
+              100,
+              32,
+              105,
+              115,
+              32,
+              58,
+              32,
+              55,
+              49,
+              48,
+              56,
+              49,
+              53,
+              68,
+              70,
+              65,
+              53,
+              68,
+              56,
+              68,
+              52,
+              56,
+              54,
+              67,
+              67,
+              49,
+              54,
+              69,
+              65,
+              67,
+              55,
+              55,
+              57,
+              49,
+              54,
+              48,
+              57,
+              51,
+              66,
+              57,
+              52,
+              57,
+              57,
+              48,
+              54,
+              65,
+              52,
+              51,
+              51,
+              55,
+              54,
+              66,
+              57,
+              50,
+              57,
+              68,
+              57,
+              68,
+              52,
+              57,
+              69,
+              65,
+              65,
+              57,
+              67,
+              67,
+              67,
+              50,
+              69,
+              51,
+              54,
+              34,
+              125
+            ]
+          },
+          "cookie": [],
+          "responseTime": 5327,
+          "responseSize": 125
+        },
+        "id": "4ceca932-af54-4376-ab06-92b6e1dece5c"
+      }
+    ],
+    "transfers": {
+      "responseTotal": 125
+    },
+    "failures": [],
+    "error": null
+  }
+}

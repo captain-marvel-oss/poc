@@ -1,0 +1,26 @@
+{
+  "capabilities": [
+    {
+      "deviceName": "Sempra iPhone",
+      "udid": "c1dca60fcbd8e1092accb71f5e52f6318669ea48",
+      "browserName": "Safari",
+      "automationName": "XCUITest",
+      "platformVersion": "11.0",
+      "maxInstances": 1,
+      "platformName": "iOS"
+    }
+  ],
+  "configuration": {
+    "cleanUpCycle": 3000,
+    "timeout": 30000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://127.0.0.1:4723/wd/hub",
+    "host": "127.0.0.1",
+    "port": 4723,
+    "maxSession": 2,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": "127.0.0.1"
+  }
+}
